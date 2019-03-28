@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@+id/fragment_canvas">
+
+    <fragment
+        android:id="@+id/fragment_canvas"
+        android:name="com.educast.designplayground.CanvasFragment"
+        android:label="도화지"
+        tools:layout="@layout/fragment_canvas" />
+
+    <fragment
+        android:id="@+id/fragment_list"
+        android:name="com.educast.designplayground.ListFragment"
+        android:label="리스트"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/fragment_grid"
+        android:name="com.educast.designplayground.GridFragment"
+        android:label="그리드"
+        tools:layout="@layout/fragment_grid" />
+
+    <fragment
+        android:id="@+id/fragment_component"
+        android:name="com.educast.designplayground.ComponentFragment"
+        android:label="컴포넌트"
+        tools:layout="@layout/fragment_component" />
+
+    <fragment
+        android:id="@+id/fragment_typography"
+        android:name="com.educast.designplayground.TypoGraphyFragment"
+        android:label="서체"
+        tools:layout="@layout/fragment_typography" />
+
+</navigation>

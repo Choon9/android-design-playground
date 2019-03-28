@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_canvas"
+        android:icon="@drawable/ic_canvas_black_24dp"
+        android:title="도화지"/>
+
+    <item
+        android:id="@+id/fragment_list"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="리스트"/>
+
+    <item
+        android:id="@+id/fragment_grid"
+        android:icon="@drawable/ic_grid_black_24dp"
+        android:title="그리드"/>
+
+    <item
+        android:id="@+id/fragment_component"
+        android:icon="@drawable/ic_widgets_black_24dp"
+        android:title="컴포넌트"/>
+
+    <item
+        android:id="@+id/fragment_typography"
+        android:icon="@drawable/ic_sort_by_alpha_black_24dp"
+        android:title="서체"/>
+
+</menu>
