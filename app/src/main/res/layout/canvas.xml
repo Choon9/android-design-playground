@@ -109,6 +109,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/status2"
         app:layout_constraintStart_toEndOf="@id/date"
         app:layout_constraintTop_toTopOf="@id/percent" />
-
+    
 
 </androidx.constraintlayout.widget.ConstraintLayout>
