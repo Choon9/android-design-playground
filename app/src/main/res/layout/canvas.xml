@@ -111,6 +111,4 @@
         app:layout_constraintTop_toTopOf="@id/percent" />
 
 
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
